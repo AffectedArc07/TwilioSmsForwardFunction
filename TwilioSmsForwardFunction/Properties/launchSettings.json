@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TwilioSmsForwardFunction": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7001"
+    }
+  }
+}
