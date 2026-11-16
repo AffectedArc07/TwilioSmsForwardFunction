@@ -2,7 +2,7 @@
 
 ## About
 
-A dotnet 8 (LTS) Azure Function to forward SMSs to a Discord webhook from Twilio.
+A dotnet 10 (LTS) Azure Function to forward SMSs to a Discord webhook from Twilio.
 
 ## Deploying
 
