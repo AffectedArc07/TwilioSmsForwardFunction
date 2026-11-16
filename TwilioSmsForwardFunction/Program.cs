@@ -3,7 +3,7 @@ using Microsoft.Azure.Functions.Worker.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace ByondChangelogAzureFunction {
+namespace TwilioSmsForwardFunction {
     public class Program {
         public static void Main(string[] args) {
             // Create our builder

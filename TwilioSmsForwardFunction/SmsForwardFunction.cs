@@ -68,8 +68,9 @@ namespace TwilioSmsForwardFunction {
             // Create our HTTP client options.
             // If we dont set this, we can run out of TCP states and requests dont go through.
             // Dont ask me how I know this.
-            HttpClientHandler options = new();
-            options.MaxConnectionsPerServer = 256;
+            HttpClientHandler options = new() {
+                MaxConnectionsPerServer = 256
+            };
 
             // Now create the client itself with our options above
             _apiClient = new(options);
